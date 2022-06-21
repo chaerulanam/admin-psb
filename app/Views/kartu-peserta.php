@@ -177,6 +177,14 @@
                                             <div class="col-sm-8 text-secondary">Ruang : 03</div>
                                             <?php elseif ($total_pendaftar->id > 104 && $total_pendaftar->id <= 124) : ?>
                                             <div class="col-sm-8 text-secondary">Ruang : 04</div>
+                                            <?php elseif ($total_pendaftar->id > 124 && $total_pendaftar->id <= 144) : ?>
+                                            <div class="col-sm-8 text-secondary">Ruang : 05</div>
+                                            <?php elseif ($total_pendaftar->id > 144 && $total_pendaftar->id <= 164) : ?>
+                                            <div class="col-sm-8 text-secondary">Ruang : 06</div>
+                                            <?php elseif ($total_pendaftar->id > 164 && $total_pendaftar->id <= 184) : ?>
+                                            <div class="col-sm-8 text-secondary">Ruang : 07</div>
+                                            <?php elseif ($total_pendaftar->id > 184 && $total_pendaftar->id <= 204) : ?>
+                                            <div class="col-sm-8 text-secondary">Ruang : 07</div>
                                             <?php endif; ?>
                                         </div>
                                     </div>

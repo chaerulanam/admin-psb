@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="authentication-bg">
+<body class="authentication">
 
     <div class="my-5 pt-sm-5">
         <div class="container">

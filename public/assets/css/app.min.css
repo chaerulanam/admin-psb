@@ -3530,7 +3530,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before {
 }
 .authentication-bg {
   background-color: rgba(91, 140, 232, 0.25);
-  background-image: url("/assets/images/al-ishlah3.png");
+  /* background-image: url("/assets/images/al-ishlah3.png"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

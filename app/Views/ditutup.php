@@ -33,7 +33,7 @@
                         </a>
 
                         <h3 class="mt-5">Pendaftaran santri baru masih dibuka sapai kuota terpenuhi</h3>
-                        <p>Pendaftaran kami layani secara langsung di sekretariat pendaftaran santri baru di komplek Pesantren Al-Ishlah Tajug, Jl. Raya Sudimampir Blok Tajug Kec. Balongan Kab. Indramayu setiap hari Sabtu-Jum'at, pukul 08.00-16.30.</p>
+                        <p>Pendaftaran kami layani secara langsung di sekretariat <br> pendaftaran santri baru di komplek Pesantren Al-Ishlah Tajug, Jl. Raya Sudimampir Blok Tajug Kec. Balongan Kab. Indramayu setiap hari Sabtu-Jum'at, pukul 08.00-16.30.</p>
                         <!-- end row -->
                     </div>
                 </div>

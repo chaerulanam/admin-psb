@@ -31,6 +31,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->get('/pendaftaran-ditutup', 'Home::ditutup');
 $routes->get('/', 'Home::index', ['filter' => 'role:santri']);
 $routes->post('profil/add', 'Home::add', ['filter' => 'role:santri']);
 $routes->get('pembayaran-santri', 'Pembayaran::index', ['filter' => 'role:santri']);

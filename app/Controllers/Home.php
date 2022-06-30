@@ -36,22 +36,22 @@ class Home extends BaseController
 
 	public function ditutup()
 	{
-		$data = [
-			'bayar' => $this->tagihanModel->where('user_id', user()->id)->get()->getRow()->status,
-			'state' => $this->profilModel->where('user_id', user()->id)->countAllResults(),
-			'profil' => $this->profilModel->where('user_id', user()->id)->get()->getRow(),
-			'orangtua' => $this->orangtuaModel->where('user_id', user()->id)->get()->getRow(),
-			'wali' => $this->waliModel->where('user_id', user()->id)->get()->getRow(),
-			'title_meta' => view('partials/title-meta', ['title' => 'Welcome']),
-			'page_title' => view('partials/page-title', ['title' => 'Welcome', 'pagetitle' => 'Welcome'])
-		];
+		// $data = [
+		// 	'bayar' => $this->tagihanModel->where('user_id', user()->id)->get()->getRow()->status,
+		// 	'state' => $this->profilModel->where('user_id', user()->id)->countAllResults(),
+		// 	'profil' => $this->profilModel->where('user_id', user()->id)->get()->getRow(),
+		// 	'orangtua' => $this->orangtuaModel->where('user_id', user()->id)->get()->getRow(),
+		// 	'wali' => $this->waliModel->where('user_id', user()->id)->get()->getRow(),
+		// 	'title_meta' => view('partials/title-meta', ['title' => 'Welcome']),
+		// 	'page_title' => view('partials/page-title', ['title' => 'Welcome', 'pagetitle' => 'Welcome'])
+		// ];
 		// dd($data);
 // 		if (in_groups('santri')){
 // 		    echo 'true';
 // 		} else {
 // 		    echo 'false';
 // 		}
-		return view('ditutup', $data);
+		return view('ditutup');
 	}
 
 	public function add()

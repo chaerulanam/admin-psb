@@ -27,13 +27,13 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="home-wrapper">
-                        <a href="/" class="mb-5 d-block auth-logo">
+                        <a href="/pendaftaran-ditutup" class="mb-5 d-block auth-logo">
                             <img src="assets/images/logo-dark.png" alt="" height="50" class="logo logo-dark">
                             <img src="assets/images/logo-light.png" alt="" height="50" class="logo logo-light">
                         </a>
 
                         <h3 class="mt-5">Pendaftaran santri baru masih dibuka sampai kuota terpenuhi</h3>
-                        <p><span>Pendaftaran kami layani secara langsung di sekretariat <br> pendaftaran santri baru di komplek Pesantren Al-Ishlah Tajug, <br>Jl. Raya Sudimampir Blok Tajug Kec. Balongan Kab. Indramayu <br>setiap hari Sabtu-Jum'at, pukul 08.00-16.30.</span></p>
+                        <p class="mt-5 text-black-50"><span>Pendaftaran kami layani secara langsung di sekretariat <br> pendaftaran santri baru di komplek Pesantren Al-Ishlah Tajug, <br>Jl. Raya Sudimampir Blok Tajug Kec. Balongan Kab. Indramayu <br>setiap hari Sabtu-Jum'at, pukul 08.00-16.30.</span></p>
                         <!-- end row -->
                     </div>
                 </div>
